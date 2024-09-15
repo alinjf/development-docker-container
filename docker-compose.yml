@@ -1,0 +1,5 @@
+services:
+  front:
+    image: ubuntu:jammy
+    command: tail -f /dev/null
+    container_name: 'test'
